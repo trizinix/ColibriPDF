@@ -1,11 +1,13 @@
 # Process this file with autoconf to produce a configure script.
 
 # Prelude.
-AC_PREREQ([2.59])
-AC_INIT([Money], [0.3], [check-devel AT lists.sourceforge.net])
+AC_PREREQ([2.69])
+AC_INIT([ColibriPDF],[trunk],[trizinix AT trizinix@gmail.com])
 
 # unique source file --- primitive safety check 
-AC_CONFIG_SRCDIR([src/money.c])
+# AC_CONFIG_SRCDIR([src/testfile.c])
+
+AC_CONFIG_MACRO_DIR([m4])
 
 # place to put some extra build scripts installed
 AC_CONFIG_AUX_DIR([build-aux])
@@ -16,7 +18,7 @@ AM_INIT_AUTOMAKE([-Wall -Werror foreign 1.9.6])
 
 # Checks for programs.
 AC_PROG_CC
-AC_PROG_LIBTOOL
+LT_INIT
 
 # Checks for libraries.
 

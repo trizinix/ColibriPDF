@@ -1,17 +1,37 @@
-# Object files
+Makefile
+Makefile.in
+
+.deps/
+.libs/
 *.o
+*.lo
+*.la
+*~
 
-# Libraries
-*.lib
-*.a
+/aclocal.m4
+/autom4te.cache
+/compile
+/config.guess
+/config.h
+/config.h.in
+/config.log
+/config.status
+/config.sub
+/configure
+/configure.lineno
+/depcomp
+/install-sh
+/libtool
+/m4/*
+/build-aux/*
+/missing
+/stamp-h1
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
-*.out
-*.app
+/src/main
+/tests/check_colibri
+
+GPATH
+GRTAGS
+GSYMS
+GTAGS
