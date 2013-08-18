@@ -6,6 +6,7 @@ Makefile.in
 *.o
 *.lo
 *.la
+*.a
 *~
 
 /aclocal.m4
